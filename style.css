@@ -1,7 +1,21 @@
+:root {
+    --bg: #0f1115;
+    --fg: #fff;
+    --btn: #4cafef;
+    --btn-hover: #72d0ff;
+    --muted: #b6c0cf;
+}
+
+
+* {
+    box-sizing: border-box;
+    background-image: url('images/space.jpg');
+}
+
 body {
     font-family: system-ui, sans-serif;
     background: black;
-    background-image: url('images/space.jpg');
+
     background-repeat: no-repeat;
     /* Prevents the image from repeating if it's smaller than the page */
     background-size: cover;
@@ -14,6 +28,16 @@ body {
     text-align: center;
     margin: 0;
     padding: 2rem;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f7f8fb;
+        --fg: #0f1115;
+        --btn: #2563eb;
+        --btn-hover: #3b82f6;
+        --muted: #475569;
+    }
 }
 
 .logo {
