@@ -1,0 +1,49 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: black;
+    background-image: url('images/space.jpg');
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating if it's smaller than the page */
+    background-size: cover;
+    /* Stretches or shrinks the image to cover the entire background area */
+    background-attachment: fixed;
+    /* Keeps the background image fixed while the content scrolls */
+    background-position: center center;
+    /* Centers the background image */
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin: 0.5rem 0;
+}
+
+.link-btn {
+    display: block;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: #4cafef;
+    color: #111;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background .2s;
+}
+
+.link-btn:hover {
+    background: #72d0ff;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #aaa;
+}
